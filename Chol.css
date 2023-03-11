@@ -1,0 +1,128 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 20px #00FFFF;
+}
+
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 20px #00FFFF;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: 0px 0px 10px #FFD300;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px #FF0000;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-weight: normal;
+}
+
+textarea {
+  height: 8rem;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* Styling for specific elements */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+input[type="checkbox"]:checked + label:before {
+  content: "\2714";
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+input[type="radio"]:checked + label:before {
+  content: "\25cf";
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Styling for submit button */
+input[type="submit"],fancy-btn{
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #4fc3f7;
+  
+  
+  
+  
